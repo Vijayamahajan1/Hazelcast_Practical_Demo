@@ -1,0 +1,10 @@
+
+📌Hazelcast Practical Demo Agenda
+
+✔ What is Hazelcast?
+✔ Run your first Hazelcast Node
+✔ Cluster formation with multiple nodes
+✔ Work with IMap, IQueue, ITopic
+✔ Use Management Center
+✔ Demo Failover (kill one node)
+✔ Mini Project: Shared Student Registry

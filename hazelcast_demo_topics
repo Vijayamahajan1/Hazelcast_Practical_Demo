@@ -1,10 +1,52 @@
 
-📌Hazelcast Practical Demo Agenda
+📌Hazelcast Practical Demo Agenda - Day_1
 
 ✔ What is Hazelcast?
 ✔ Run your first Hazelcast Node
 ✔ Cluster formation with multiple nodes
-✔ Work with IMap, IQueue, ITopic
-✔ Use Management Center
-✔ Demo Failover (kill one node)
-✔ Mini Project: Shared Student Registry
+✔ Multicast Discovery (default)
+✔ Work with IMap
+
+
+
+📌Hazelcast Practical Demo Agenda - Day_2
+
+✔ Data Partitioning & Replication (with Hazelcast Management center)
+✔ Node Shutdown & Cluster Rebalancing
+✔ tcp/ip discovery 
+✔ Hazelcast IMap Configuration with TTL 
+
+
+📌Hazelcast Practical Demo Agenda - Day_3
+
+✔ Overview of Hazelcast Client-Server Architecture	
+✔ connect the client to the hazelcast server
+✔ Hazelcast Data persistence - Mapstore(Store method)
+✔ Mapstore Implementation with DB
+
+
+
+📌Hazelcast Practical Demo Agenda - Day_4
+
+✔ MapStore (All methods)
+✔ map.set() & map.put()
+✔ Write-through & Write-behind (practical)
+✔ Lazy & Eager Loading
+✔ Near Cache
+✔ EvictionPolicy - LRU , LFU , RANDOM , NONE , ttl 
+
+
+📌Hazelcast Practical Demo Agenda - Day_5
+
+questions of day 4:-
+
+>>How hazelcast work internally in write-behind
+>>when evictionpolicy configure if in db the values are 20 and map size is 
+  3 what will happen 
+  
+✔  configuration in xml 
+✔ 	hazelcast queue
+
+
+
+📌Hazelcast Practical Demo Agenda - Day_6

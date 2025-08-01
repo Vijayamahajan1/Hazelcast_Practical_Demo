@@ -5,10 +5,11 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 import com.hazelcast.core.Hazelcast;
 import com.hazelcast.core.HazelcastInstance;
-
+import org.springframework.context.annotation.ImportResource;
 
 
 @SpringBootApplication
+@ImportResource("classpath:hazelcast-config.xml")
 public class HazelcastLeaarningApplication {
 
 	public static void main(String[] args) {
