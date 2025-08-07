@@ -25,11 +25,13 @@
         
         <hz:map name="${hazelcast.my.map}"></hz:map>
 
+        <hz:queue name="my-queue" max-size="10"></hz:queue>
+
         <hz:map name="${hazelcast.demo.map}" time-to-live-seconds="30" max-idle-seconds="20"></hz:map>
 
         <hz:map name="${hazelcast.employee.map}">
             <hz:eviction eviction-policy="LFU" max-size-policy="PER_NODE" size="3"></hz:eviction>
-            <hz:map-store enabled="true" initial-mode="EAGER" write-delay-seconds="${hazelcast.write.delay.second}" write-batch-size="${hazelcast.write.batch.size}" implementation="employeeMapstore"></hz:map-store>
+            <hz:map-store enabled="true" initial-mode="LAZY" write-delay-seconds="${hazelcast.write.delay.second}" write-batch-size="${hazelcast.write.batch.size}" implementation="employeeMapstore"></hz:map-store>
         </hz:map>
     </hz:config>
 
